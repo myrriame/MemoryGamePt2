@@ -1,0 +1,60 @@
+* {
+    padding: auto;
+    margin: auto;
+    
+}
+
+body {
+    height: auto;
+	font: 18px Arial;
+	color: rgb(255, 255, 255);
+     background: rgb(255, 165, 82);
+}
+
+header {
+	margin: 0px auto;
+	width: 620px;
+}
+
+#entirebox {
+	margin: 0px auto;
+	width: 800px;
+}
+.row div {
+    float: left;
+    width: 100px;
+    height: 100px;
+	padding: 10px; 
+	border: 1px solid #000000;
+	cursor: pointer;
+	border-radius: 2px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+ 
+
+}
+.concentrationGame div img {
+	border-radius: 2px;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+
+}
+
+.img-hidden {
+    opacity: 0.0;
+}
+
+#resetbuttonbox {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#resetbuttonbox .button {
+	background: hsl(347, 100%, 56%);
+	padding: 5px 10px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+#resetbuttonbox .button:hover {
+	background: rgba(255, 255, 255, 0.247);
+}

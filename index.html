@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Users/myrriamed./DigitalCrafts/memorygame/style.css">
+    <!-- CSS -->
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+    <!-- bootstrap -->
+    <title>Concentration Game</title>
+</head>
+
+<body>
+    <div id="entirebox">
+        <header>
+            <h1 style="text-align: center;">Concentration</h1>
+            <h2 style="text-align: center;"> Tobias Fünke Edition </h2>
+
+            <span id="resetbuttonbox">
+
+                <span class="button" onclick="window.location.reload()">
+                    RESET
+                </span>
+
+            </span>
+
+        </header>
+
+
+        <section class="concentrationGame">
+            <div class="row">
+                <div class="cards" data-image="pic-1">
+                    <img src="https://smartcdn.prod.postmedia.digital/nationalpost/wp-content/uploads/2013/05/funke1.jpg?quality=90&strip=all&w=288"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-1">
+                </div>
+                <div class="cards" data-image="pic-2">
+                    <img src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-arrested-development-david-cross.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-2">
+                </div>
+                <div class="cards" data-image="pic-3">
+                    <img src="https://us-east-1.linodeobjects.com/gunaxin/2010/12/tobias1.png" class="img-hidden"
+                        onclick="clickedCard(event)" alt="pic-3">
+                </div>
+                <div class="cards" data-image="pic-4">
+                    <img src="https://pyxis.nymag.com/v1/imgs/327/edf/86a0bc145b8026e67d875393100c3c6056-27-5-Tobias.rsquare.w700.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-4">
+                </div>
+                <div class="cards" data-image="pic-5">
+                    <img src="https://i.redd.it/03qvpj1qvm711.jpg" class="img-hidden" onclick="clickedCard(event)"
+                        alt="pic-5">
+                </div>
+                <div class="cards" data-image="pic-6">
+                    <img src="https://pyxis.nymag.com/v1/imgs/1b5/a70/76e64eeafe718092d5f7557d04606dac9e-19-tobias-funke.rsquare.w330.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cards" data-image="pic-7">
+                    <img src="https://pbs.twimg.com/profile_images/644157694136422400/d4ho5P5S_400x400.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-7">
+                </div>
+                <div class="cards" data-image="pic-8">
+                    <img src="https://i.pinimg.com/originals/37/38/ef/3738efe9ed04fb5062a501db05fa0949.png"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-8">
+                </div>
+                <div class="cards" data-image="pic-9">
+                    <img src="https://i.pinimg.com/originals/73/87/c6/7387c62541a1a78d1eb04e5d003874d3.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-9">
+                </div>
+                <div class="cards" data-image="pic-1">
+                    <img src="https://smartcdn.prod.postmedia.digital/nationalpost/wp-content/uploads/2013/05/funke1.jpg?quality=90&strip=all&w=288"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-1">
+                </div>
+                <div class="cards" data-image="pic-2">
+                    <img src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-arrested-development-david-cross.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-2">
+                </div>
+                <div class="cards" data-image="pic-3">
+                    <img src="https://us-east-1.linodeobjects.com/gunaxin/2010/12/tobias1.png" class="img-hidden"
+                        onclick="clickedCard(event)" alt="pic-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cards" data-image="pic-4">
+                    <img src="https://pyxis.nymag.com/v1/imgs/327/edf/86a0bc145b8026e67d875393100c3c6056-27-5-Tobias.rsquare.w700.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-4">
+                </div>
+                <div class="cards" data-image="pic-5">
+                    <img src="https://i.redd.it/03qvpj1qvm711.jpg" class="img-hidden" onclick="clickedCard(event)"
+                        alt="pic-5">
+                </div>
+                <div class="cards" data-image="pic-6">
+                    <img src="https://pyxis.nymag.com/v1/imgs/1b5/a70/76e64eeafe718092d5f7557d04606dac9e-19-tobias-funke.rsquare.w330.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-6">
+                </div>
+                <div class="cards" data-image="pic-7">
+                    <img src="https://pbs.twimg.com/profile_images/644157694136422400/d4ho5P5S_400x400.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-7">
+                </div>
+                <div class="cards" data-image="pic-8">
+                    <img src="https://i.pinimg.com/originals/37/38/ef/3738efe9ed04fb5062a501db05fa0949.png"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-8">
+                </div>
+                <div class="cards" data-image="pic-9">
+                    <img src="https://i.pinimg.com/originals/73/87/c6/7387c62541a1a78d1eb04e5d003874d3.jpg"
+                        class="img-hidden" onclick="clickedCard(event)" alt="pic-9">
+                </div>
+            </div>
+    </div>
+    <script src="/Users/myrriamed./DigitalCrafts/memorygame/script.js"></script>
+
+</body>
+
+</html>
